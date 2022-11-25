@@ -1,0 +1,120 @@
+#about {
+  .background {
+    background: linear-gradient(0.25turn, #a85eaf, #e0774d, #a8aa885d);
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    h2 {
+      display: inline-block;
+      font-size: 40px;
+      height: 70px;
+      padding: 10px 70px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 20px;
+      padding: 0 0 40px 70px;
+    }
+  }
+
+  .icons {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width: 400px;
+    row-gap: 10px;
+    column-gap: 30px;
+  }
+
+  .icon {
+    font-size: 35px;
+    color: rgb(179, 176, 176);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+  }
+
+  .after {
+    display: none;
+  }
+
+  .icon1 {
+    font-size: 30px;
+    color: rgb(179, 176, 176);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fas {
+    padding-right: 10px;
+  }
+
+}
+
+@media (min-width:500px) {
+  #about {
+    .background {
+      background: linear-gradient(0.25turn, #a85eaf, #e0774d, #a8aa885d);
+      height: 300px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 20px;
+      padding: 40px 70px;
+    }
+  }
+
+  .icons {
+    .icon {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+
+    .after {
+      display: none;
+    }
+  }
+}
+
+@media (min-width:1020px) {
+  #about {
+    .background {
+      background: linear-gradient(0.25turn, #a85eaf, #e0774d, #63a5558c);
+      height: 300px;
+      margin: 30px;
+      border-radius: 20px;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+    }
+    .icon, .icon1{
+      align-items: center;
+    }
+
+    .after {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 35px;
+      color: rgb(179, 176, 176);
+
+    }
+
+  }
+}

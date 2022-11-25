@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-top: 30px;
+  h1{
+    font-family: 'Comfortaa';
+  }
+  .fas{
+    font-size: 36px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .glyphicon{
+    font-size: 30px;
+    color: grey;
+  }
+
+    ul{
+      display: flex;
+      gap: 20px;
+      li{
+        list-style-type: none;
+        a{
+          color: grey;
+          font-size: 15px;
+        }
+      }
+    }
+    .pink {
+      color: rgb(235, 57, 252);
+    }
+    
+}
+
+@media (min-width:500px){
+  nav{
+    display: none
+  };
+}
+@media (min-width:1020px){
+  nav{
+    display: flex;
+  }
+  .glyphicon {
+    display: none;
+  }
+}

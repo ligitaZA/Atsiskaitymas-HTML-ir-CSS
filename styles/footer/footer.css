@@ -1,0 +1,91 @@
+footer .box1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+footer .box1 p {
+  font-size: 20px;
+  color: grey;
+}
+footer .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .logo h1 {
+  font-family: "Comfortaa";
+}
+footer .logo .fas {
+  font-size: 36px;
+}
+footer .icons {
+  color: grey;
+  font-size: 20px;
+}
+footer .fab,
+footer .fa-brands {
+  margin-right: 10px;
+}
+footer .box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 25px 30px 0;
+}
+footer .box2 h4 {
+  font-weight: 600;
+  color: rgb(77, 71, 71);
+  padding-bottom: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+footer .box2 p {
+  font-size: 15px;
+}
+footer .copyrights {
+  padding: 0 30px 30px;
+  color: grey;
+}
+
+@media (min-width: 500px) {
+  footer .box1 {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 25px 30px 0;
+  }
+  .desktopVersion {
+    display: none;
+  }
+}
+@media (min-width: 1020px) {
+  footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  footer .footer .box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  footer .copyrights {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktopVersion {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=footer.css.map */

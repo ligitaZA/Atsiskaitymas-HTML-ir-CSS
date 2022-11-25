@@ -1,0 +1,11 @@
+@import url('https://necolas.github.io/nozzzrmalize.css/8.0.1/normalize.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/* my CSS */
+@import url('./common.css');
+@import url('./header/header.css');
+@import url('./features/features.css');
+@import url('./about/about.css');
+@import url('./launch/launch.css');
+@import url('./signUp/signUp.css');
+@import url('footer/footer.css');

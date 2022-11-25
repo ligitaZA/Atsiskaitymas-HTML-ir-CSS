@@ -1,0 +1,383 @@
+#launch {
+  height: 70vh;
+
+  .description {
+    h2 {
+      display: inline-block;
+      font-size: 40px;
+      height: 70px;
+      padding-left: 30px;
+      padding-right: 110px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 20px;
+      padding: 20px 120px 20px 30px;
+      color: grey;
+    }
+
+    a {
+      text-decoration: underline;
+      color: grey;
+    }
+  }
+
+  .icecream {
+    height: 20px;
+    width: 20px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 0px;
+}
+
+
+  .card1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 450px;
+    width: 500px;
+    background-color: rgb(238, 226, 226);
+    border-radius: 10px;
+
+    .img1 {
+      background-image: url('https://free-png.ru/wp-content/uploads/2021/12/free-png.ru-628.png');
+      background-size: cover;
+      background-position: center;
+      background-color: black;
+      grid-area: 1/1/4/3;
+      position: relative;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .left {
+      padding: 10px;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 10px;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin-left: 10px;
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  p {
+    font-size: 13;
+    padding: 0;
+  }
+
+  .orangeColor {
+    color: orange;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 150px;
+  }
+
+  h4 {
+    font-size: 25px;
+    width: 107px;
+    margin-top: 22px;
+  }
+
+
+  .card2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 450px;
+    width: 500px;
+    background-color: rgb(238, 226, 226);
+    border-radius: 10px;
+
+    .img2 {
+      background-image: url('https://www.raccoongames.es/img/productos/2021/10/25/64797_SquidGame_SaeByeok067_POP_GLAM-WEB.png');
+      background-size: cover;
+      background-position: center;
+      background-color: black;
+      grid-area: 1/1/4/3;
+      position: relative;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .left {
+      padding: 10px;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 10px;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+      }
+    }
+
+    p {
+      font-size: 13;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .orangeColor {
+    color: orange;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 150px;
+  }
+
+  h4 {
+    font-size: 25px;
+    width: 107px;
+    margin-top: 22px;
+  }
+}
+
+.card3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 450px;
+  width: 500px;
+  background-color: rgb(238, 226, 226);
+  border-radius: 10px;
+
+  .img3 {
+    background-image: url('https://www.pngplay.com/wp-content/uploads/13/Squid-Game-Transparent-Background.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    grid-area: 1/1/4/3;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .left {
+    padding: 10px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+    }
+  }
+
+  p {
+    font-size: 13;
+    padding: 0;
+    margin: 0;
+  }
+
+  .orangeColor {
+    color: orange;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 150px;
+  }
+
+  h4 {
+    font-size: 25px;
+    width: 107px;
+    margin-top: 22px;
+  }
+}
+
+.card4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 450px;
+  width: 500px;
+  background-color: rgb(238, 226, 226);
+  border-radius: 10px;
+
+  .img4 {
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/27/16/17/squid-game-6828430_1280.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    grid-area: 1/1/4/3;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .left {
+    padding: 10px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+    }
+  }
+
+  p {
+    font-size: 13;
+    padding: 0;
+    margin: 0;
+  }
+
+  .orangeColor {
+    color: orange;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 150px;
+  }
+
+  h4 {
+    font-size: 25px;
+    width: 107px;
+    margin-top: 22px;
+  }
+}
+
+.line1 {
+  height: 2px;
+  display: flex;
+  background-color: rgb(226, 221, 221);
+}
+
+.line2 {
+  height: 2px;
+  display: flex;
+  background-color: rgb(226, 221, 221);
+  margin-top: 62px;
+}
+
+@media (min-width:500px) {
+  #launch {
+    .description {
+      h2 {
+        display: inline-block;
+        font-size: 40px;
+        height: 70px;
+        padding-left: 30px;
+        padding-right: 110px;
+        text-align: left;
+      }
+
+      p {
+        font-size: 20px;
+        padding: 20px 120px 20px 30px;
+        color: grey;
+      }
+
+      a {
+        text-decoration: underline;
+        color: grey;
+      }
+    }
+
+    .icecream {
+      height: 20px;
+      width: 20px;
+    }
+
+    .cards {
+      display: flex;
+      margin: 0 20px;
+      gap: 10px;
+    }
+  }
+
+  .line1 {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width:1020px) {
+  #launch {
+    .description{
+      padding-left: 20px;
+    }
+    .cards {
+      margin: 0 auto;
+      padding: 20px;
+      gap: 5px;
+      justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+      width: 240px;
+      height: 400px;
+
+      img {
+        width: 100%;
+      }
+
+      h3,
+      h4 {
+        width: fit-content;
+        font-size: 20px;
+        margin: 0;
+      }
+
+      .left {
+        padding-left: 10px;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .right {
+        width: 118px;
+        height: 70px;
+
+      }
+    }
+  }
+
+  .line2 {
+    margin: -146px;
+  }
+}

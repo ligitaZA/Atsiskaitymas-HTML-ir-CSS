@@ -1,0 +1,100 @@
+#features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#features .right {
+  padding-left: var(--padding_5);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+#features .right .launch {
+  color: rgb(243, 91, 205);
+  font-weight: bolder;
+  letter-spacing: var(--letter_space);
+}
+#features .right h1 {
+  font-weight: 900;
+  font-size: 41px;
+  padding-bottom: 20px;
+}
+#features .right .description {
+  letter-spacing: 1px;
+  color: grey;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+#features .right input {
+  box-shadow: 0 0 6px 0 rgba(255, 51, 0, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgba(183, 67, 212, 0.7960784314), rgba(238, 143, 34, 0.8549019608));
+  box-shadow: 2px 1000px 1px #fff inset;
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 170px;
+}
+#features .right .left {
+  background: radial-gradient(#d83bd0 0%, transparent 60%, transparent 100%);
+}
+#features img {
+  height: 490px;
+  width: 400px;
+}
+
+@media (min-width: 500px) {
+  #features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #features h1 {
+    font-weight: 900;
+    font-size: 41px;
+  }
+  #features .left {
+    background: radial-gradient(#d83bd0 0%, transparent 50%, transparent 100%);
+  }
+  .left img {
+    margin-right: -128px;
+  }
+  img {
+    height: 490px;
+    width: 400px;
+  }
+}
+@media (min-width: 1020px) {
+  #features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #features .left img {
+    margin-right: -50px;
+  }
+  #features .left {
+    background: radial-gradient(#d83bd0 0%, transparent 70%, transparent 100%);
+  }
+  #features img {
+    height: 550px;
+    width: 500px;
+  }
+  #features .right {
+    width: 700px;
+  }
+  #features .right h1 {
+    font-weight: 900;
+    font-size: 70px;
+    padding-bottom: 20px;
+  }
+  #features .right .description {
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+}/*# sourceMappingURL=features.css.map */
